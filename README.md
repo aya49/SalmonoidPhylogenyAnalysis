@@ -1,6 +1,6 @@
 # cmpt711
 
-The code in this repository builds a pipeline that takes align.txt & talign.txt (the assumptions CHARSET portion of align.txt) and does the following:
+The code in this repository builds a pipeline that takes align.txt (original nexus alignment) & talign.txt (the assumptions CHARSET portion of align.txt) and does the following:
 
 1. Preparing alignments:
   1. align.phy: organize, seperate, combine alignments from different genes. Does the same with muscel alignments for comparison1
