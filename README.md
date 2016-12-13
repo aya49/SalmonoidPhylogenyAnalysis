@@ -16,3 +16,7 @@ Note: (raxml_template.sh)[./raxml_template.sh] and (beast_template.sh)[./beast_t
 Note: we recommend running beast on a commandline, as working directories cannot be defined directly.
 
 ## 
+
+## (Report) [./report.pdf]
++ (Appendix: saturation) [./nucleotide_substitution] - BEAST2 subsitution parameters
+## (Brief Presentation) [https://docs.google.com/presentation/d/1G3MzjjyX8WvfTMy2YDwjYd3TpV961PJmhzPmpEeLEzQ/edit?usp=sharing]
