@@ -1,4 +1,4 @@
-# cmpt711
+# cmpt 711
 
 The code in this repository builds a pipeline that takes align.txt (original nexus alignment) & talign.txt (the assumptions CHARSET portion of align.txt) and does the following:
 
