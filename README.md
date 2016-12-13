@@ -3,7 +3,7 @@
 The code in this repository builds a pipeline that takes align.txt (original nexus alignment) & talign.txt (the assumptions CHARSET portion of align.txt) and does the following:
 
 ## 1. Prepare Alignments
-  + [align.py](./align.py): organize, seperate, combine alignments from different genes. Does the same with muscel alignments for comparison1
+  1. [align.py](./align.py): organize, seperate, combine alignments from different genes. Does the same with muscel alignments for comparison1
 
 ## 2. Build Phylogeny using RAxML and BEAST2
   1. [raxml.py](./raxml.py) creates raxml phylogeny from alignments made from previous step.
