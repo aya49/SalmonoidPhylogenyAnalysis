@@ -11,12 +11,12 @@ The code in this repository builds a pipeline that takes align.txt (original nex
 
 Note: beast takes (.xml) files as input; these should be made using (.nexus) alignments on the beast GUI application BEAUti.
 
-Note: (raxml_template.sh)[./raxml_template.sh] and (beast_template.sh)[./beast_template.sh] are templates for the bash versions (.sh) of running raxml and beast commandline programs. They may also be embedded into (.pbs) files for submission as jobs on a cluster.
+Note: [raxml_template.sh](./raxml_template.sh) and [beast_template.sh](./beast_template.sh) are templates for the bash versions (.sh) of running raxml and beast commandline programs. They may also be embedded into (.pbs) files for submission as jobs on a cluster.
 
 Note: we recommend running beast on a commandline, as working directories cannot be defined directly.
 
 ## 
 
-## (Report) [./report.pdf]
-+ (Appendix: saturation) [./nucleotide_substitution] - BEAST2 subsitution parameters
-## (Brief Presentation) [https://docs.google.com/presentation/d/1G3MzjjyX8WvfTMy2YDwjYd3TpV961PJmhzPmpEeLEzQ/edit?usp=sharing]
+## [Report] (./report.pdf)
++ [Appendix: saturation] (./nucleotide_substitution) - BEAST2 subsitution parameters
+## [Brief Presentation] (https://docs.google.com/presentation/d/1G3MzjjyX8WvfTMy2YDwjYd3TpV961PJmhzPmpEeLEzQ/edit?usp=sharing)
