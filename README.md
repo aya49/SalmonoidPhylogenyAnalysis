@@ -14,3 +14,5 @@ Note: beast takes (.xml) files as input; these should be made using (.nexus) ali
 Note: (raxml_template.sh)[./raxml_template.sh] and (beast_template.sh)[./beast_template.sh] are templates for the bash versions (.sh) of running raxml and beast commandline programs. They may also be embedded into (.pbs) files for submission as jobs on a cluster.
 
 Note: we recommend running beast on a commandline, as working directories cannot be defined directly.
+
+## 
