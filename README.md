@@ -8,5 +8,6 @@ The code in this repository builds a pipeline that takes align.txt (original nex
 2. Build phylogeny
   1. raxml.py: creates raxml phylogeny from alignments made from previous step.
   2. raxml_lh.py: extracts likelihood and substitution rates from each raxml tree made by raxml.py.
-  3. beast
-  4. Note: bash versions (.sh) files are also available for raxml and beast and lists all files needed to be processed such that they can be seperated and run on different machines if necessary. They may also be embedded into (.pbs) files for submission as jobs on a cluster.
+
+Note: raxml.sh and beast.sh are templates for the bash versions (.sh) of running raxml and beast commandline programs. They may also be embedded into (.pbs) files for submission as jobs on a cluster.
+Note: we recommend beast to be ran on a commandline, as working directories cannot be defined directly.
