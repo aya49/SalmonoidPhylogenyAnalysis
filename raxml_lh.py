@@ -12,8 +12,6 @@ import numpy as np
 
 al = ['align/o', 'align/m']
 form = ['nexus', 'phylip', 'fasta']
-
-# RAxML ========================================
 rax = ['raxml/o', 'raxml/m']
 
 input = [i for i in os.listdir(rax[0] + '/bootstrap') if '_info.' in i]
@@ -28,9 +26,10 @@ m2 = np.zeros((len(input2),7))
 #input.append(input2)
 row.append(['m/' + i for i in input2])
 
+#column values: values to be extracted
 col = ['Likelihood', 'rate A<>C','A<>G', 'A<>T', 'C<>G', 'C<>T', 'G<>T']
 
-
+#print row and column values seperately to file for confirmation
 thefile = open('raxml/row.txt', 'w')
 for item in row:
   print>>thefile, item
