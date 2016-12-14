@@ -3,7 +3,7 @@
 The code in this repository builds a pipeline that takes align.txt (original nexus alignment) & talign.txt (the assumptions CHARSET portion of align.txt) and does the following:
 
 ## 1. Prepare Alignments
-  1. [align.py](./align.py): organize, seperate, combine alignments from different genes. Does the same with muscel alignments for comparison1
+  1. [align.py](./align.py): organize, seperate, combine alignments from different genes. Does the same with muscle alignments for comparison1
 
 ## 2. Build Phylogeny using RAxML and BEAST2
   1. [raxml.py](./raxml.py) creates raxml phylogeny from alignments made from previous step.
@@ -13,11 +13,11 @@ Note: beast takes (.xml) files as input; these should be made using (.nexus) ali
 
 Note: [raxml_template.sh](./raxml_template.sh) and [beast_template.sh](./beast_template.sh) are templates for the bash versions (.sh) of running raxml and beast commandline programs. They may also be embedded into (.pbs) files for submission as jobs on a cluster.
 
-Note: we recommend running beast on a commandline, as working directories cannot be defined directly.
+Note: we recommend running beast on a command line, as working directories cannot be defined directly.
 
 ## 
 
 ## [Report] (./report.pdf)
-+ [Appendix: saturation] (./nucleotide_substitution) - BEAST2 subsitution parameters
++ [Appendix: saturation] (./nucleotide_substitution) - BEAST2 substitution parameters
 
 ## [Brief Presentation] (./presentation.pdf)
