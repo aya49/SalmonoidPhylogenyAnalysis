@@ -1,6 +1,7 @@
 # Samonoid Species Phylogeny Analysis
 
-The code in this repository builds a pipeline that takes align.txt (original nexus alignment) & talign.txt (the assumptions CHARSET portion of align.txt i.e. which DNA index is which gene) and does the following:
+The code in this repository builds a pipeline that takes align.txt (original nexus alignment) & talign.txt (the assumptions CHARSET portion of align.txt i.e. which DNA index is which gene) and does the following.
+Note: Data can be found (here)[https://www.ncbi.nlm.nih.gov/pubmed/23071608].
 
 ## 1. Prepare Alignments
   1. [align.py](./align.py): organize, seperate, combine alignments from different genes. Does the same with muscle alignments for comparison1
