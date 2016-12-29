@@ -22,3 +22,5 @@ Note: we recommend running beast on a command line, as working directories canno
 + [Appendix: saturation](./nucleotide_substitution) - BEAST2 substitution parameters
 
 ## [Brief Presentation](./presentation.pdf)
+
+Updating in progress
